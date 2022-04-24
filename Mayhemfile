@@ -1,6 +1,6 @@
 
-project: openml
-target: openml
+project: trie
+target: trie
 
 cmds:
     - cmd: /trie_root_new
