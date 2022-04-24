@@ -13,8 +13,7 @@ WORKDIR /trie
 
 ## TODO: ADD YOUR BUILD INSTRUCTIONS HERE.
 # RUN ${HOME}/.cargo/bin/cargo build --all
-RUN cd trie-db && \
-    cd fuzz && ${HOME}/.cargo/bin/cargo fuzz build
+RUN cd trie-db/fuzz && ${HOME}/.cargo/bin/cargo fuzz build
 
 # Package Stage
 FROM ubuntu:20.04
